@@ -1,0 +1,265 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	width: 100%;
+	background: #F1F3F6;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+.header {
+    height: auto;
+    margin-left: 192px;
+    width:1209px;
+}
+
+.header input {
+    width: 228px;
+    height: 46px;
+    margin-top: -9px;
+    position: absolute;
+    padding-left: 14px;
+    margin-left: 44px;
+    border-left: white;
+    border-right: white;
+    border bottom: auto;
+}
+.header ul {
+    float: right;
+    display: flex;
+    margin-right: 305px;
+    padding-right: -22px;
+}
+.header  a {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.header li {
+    text-decoration: none;
+    padding: 12px;
+}
+ 
+ .header hr {
+ 	width: 100px;
+ }
+
+ .bg {
+    background: white;
+    height: 55px;
+
+}
+.header button {
+    background: yellow;
+    margin-top: 5px;
+    border:solid 1px;
+}
+
+.header img{
+	margin-top:5px;
+}
+/*---part2-----*/
+
+.second {
+    height: auto;
+    margin-left: 157px;
+    background: #f7f5ee;
+    width:195px;
+}
+	.profi {
+    height: 40px;
+    border: solid 1px #898188;
+    width: 184px;
+}
+i.fa.fa-user {
+    margin-left: 36px;
+    margin-top: 12px;
+}
+i.fa.fa-star {
+    margin-left: 36px;
+    margin-top: 12px;
+}
+i.fa.fa-bullhorn {
+    margin-left: 36px;
+    margin-top: 12px;
+}
+i.fa.fa-pencil {
+    margin-left: 36px;
+    margin-top: 12px;
+}
+.cont {
+    position: absolute;
+    margin-left: 197px;
+    margin-top: -371px;
+    background: white;
+    width: 856px;
+    height: 550px;
+}
+
+
+.cont label {
+	font-size: 33px;
+}
+
+.cont i{
+	font-size: 33px;
+}
+
+
+.m1st label {
+    margin-left: 396px;
+    position: absolute;
+    margin-top: -269px;
+}
+.m1st input {
+    margin-left: 513px;
+    position: absolute;
+    margin-top: -280px;
+    width: 404px;
+    height: 31px;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+.m2st label {
+    margin-left: 396px;
+    position: absolute;
+    margin-top: -208px;
+}
+.m2st input {
+    margin-left: 513px;
+    position: absolute;
+    margin-top: -218px;
+    width: 404px;
+    height: 31px;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+.m3st label {
+    margin-left: 396px;
+    position: absolute;
+    margin-top: -147px;
+}
+.m3st input {
+    margin-left: 513px;
+    position: absolute;
+    margin-top: -154px;
+    width: 404px;
+    height: 31px;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+.m4st label {
+    margin-left: 396px;
+    position: absolute;
+    margin-top: -50px;
+}
+.web {
+    margin-left: 513px;
+    position: absolute;
+    margin-top: -88px;
+    width: 404px;
+    height: 60px;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+.m5st label {
+    margin-left: 396px;
+    position: absolute;
+    margin-top: 21px;
+}
+.m5st input {
+    margin-left: 513px;
+    position: absolute;
+    margin-top: 14px;
+    width: 404px;
+    height: 31px;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+.m6st label {
+    margin-left: 396px;
+    position: absolute;
+    margin-top: 88px;
+}
+.m6st input {
+    margin-left: 513px;
+    position: absolute;
+    margin-top: 77px;
+    width: 404px;
+    height: 31px;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+.bb{
+	position: absolute;
+	margin-left: 539px;
+	margin-top: 144px;
+}
+button.bu2 {
+    padding: 9px 36px;
+    background-color: red;
+}
+button.bu1{
+    padding: 9px 36px;
+    background-color: green;
+}
+.bottom li {
+    padding: 9px 71px;
+    margin-top: 30px;
+    margin-left: 41px;
+}
+.bottom {
+    position: absolute;
+    margin-left: -159px;
+    margin-top: 220px;
+    display: flex;
+}
+.bottom ul {
+    display: flex;
+    background: white;
+    height: 54px;
+}
